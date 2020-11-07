@@ -1,4 +1,4 @@
-`class ADS(object):
+class ADS(object):
   def __init__(self, nome):
      self.nome = nome
   
@@ -11,4 +11,4 @@ class Turmas(Curso):
 class Bloco (Turmas):
     def __init__(self, disciplina):
         super().__init__(bloco)
-        self.disciplina = disciplina`
+        self.disciplina = disciplina
