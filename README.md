@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 README
 ---
 # Estrutura dos Dados da Mega-Sena
@@ -31,19 +30,3 @@ Cada registro representa um concurso específico e contém os seguintes campos:
 * **ano:** Ano do concurso.
 ## Limpeza de Dados
 Para garantir a qualidade dos dados, foram realizadas as seguintes etapas de limpeza:
-=======
-class ADS(object):
-  def __init__(self, nome):
-     self.nome = nome
-  
-  
-class Turmas(Curso):
-  def __init__(self, bloco):
-     super().__init__(nome)
-     self.bloco = bloco
-
-class Bloco (Turmas):
-    def __init__(self, disciplina):
-        super().__init__(bloco)
-        self.disciplina = disciplina
->>>>>>> ac95110077b942352e6463fec2aefdc88ad7784f
